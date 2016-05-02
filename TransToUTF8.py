@@ -15,8 +15,8 @@ from FileManager import FileManager as fm
 
 __author__ = 'legong.sun@gmail.com'
 
-rootDir = sys.argv[1]
-fileType = '.' + sys.argv[2]
+rootDir = sys.argv[1]           # 递归搜索 root dir
+fileType = '.' + sys.argv[2]    # 指定文件类型， eg：cpp, hpp, py
 
 codeType = '.utf8'
 srcDirList = fm.findFiles(rootDir, fileType)                    # src files:  *.fileType
