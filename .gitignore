@@ -37,8 +37,8 @@ $RECYCLE.BIN/
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+# [Rr]elease/
+# [Rr]eleases/
 x64/
 x86/
 build/
@@ -234,7 +234,7 @@ FakesAssemblies/
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+# *.dll
 
 # Fortran module files
 *.mod
